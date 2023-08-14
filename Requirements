@@ -1,0 +1,61 @@
+#Requirements:
+1.User greeted sign in screen which asks if they want to sign in, create an account or exit program
+Sign in will ask for the username and password
+
+1.1Create an account will ask user to enter name username and  password 
+If account has same username will not allow the account to be created will ask user to choose another username
+1.1.2 after the account has been created it will ask user if they want to write a profile description or continue without one 
+(profile description will display when searching for user)
+
+2. after Either sign in or create an account the user will be given a list of options 
+2.1 Display feed 	
+2.2 Friends 2.2.1 add friends 2.2.2 display profile 2.2.3 discover new friends 2.2.4 display friends list 
+2.3 Post	
+2.4Message Friend
+2.5 update profile   
+2.6 exit 
+
+
+
+2.1 This will display posts of the users friends ideally in some chronological order 
+It will display the username then the post below.
+Maybe display 10 posts at a time and have an option of exiting to main menu or displaying next page 
+
+2.2Friends 
+2.2.1 add friends 
+This will prompt the user to type in a username or exit 
+If the username is already on the friends list it will say this 
+If the username does not exist it will say this 
+Otherwise the user will be added to a list of a maximum of 30 friends 
+2.2.2 display profile 
+This will prompt the user to type a username or exit 
+After a username is entered the name ,username, profile description will display 
+It will then ask if the user wants to search another profile or exit 
+
+2.2.3Discover new friends  
+This will display a list of potential friends in a list. possibly user a short quiz of interests then compare the yes or no answers using this so rank the friends how many they have in common.
+
+2.2.4 display friends list
+This will display 10 friends then ask if the user wants to see more or exit 
+
+
+2.3 Post
+This will prompt the user to post text or exit 
+After the user has  entered something they want to post  they will be asked to confirm if they want to post 
+If the user says yes it will post
+Is not the user will exit 
+
+
+
+
+2.4Message Friends	
+The user will be given a list of their friends and be asked which they want to message 
+The user will then be shown the previous messages exchanged between them and be prompted to send a message or exit 
+Possibly also allow user to send messages to multiple users at a time without displaying previous messages 
+
+2.5 update profile   
+This will allow the user to edit their profile description 
+
+2.6 exit this will take the user back to the sign in / sign up menu
+
+
